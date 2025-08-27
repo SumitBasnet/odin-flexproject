@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header,
+main{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header,
+.container,
+.section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.header{
+    padding-bottom: 48px;
+}
+
+.container{
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.left-section{
+    display: flex;
+    gap: 16px;
+    
+}
+.right-section{
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+.awesome{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.right-container{
+    width: 50%;
+    
+}
+
+.left-container{
+    width: 50%;
+    background-color: grey;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-btn{
+    background-color: #2882f6;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.random-info{
+    margin-top:24px;
+    margin-bottom: 33px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.box{
+    border: 3px solid #3882F6;
+    height: 160px;
+    border-radius: 12%;
+    width: 150px;
+}
+.section-container{
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 0px;
+    height: 55vh;
+    flex-direction: column;
+    justify-content: initial;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.items p{
+    margin-top: 8px;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.information{
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E5E7EB;
+}
+
+.unkown-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote{
+    margin-right: 0;
+    text-align: right;
+}
+.contact-info{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 42px 110px;
+    background-color: #2882F6;
+    display: flex;
+    justify-content: space-between;
+}
+.blue-box p{
+   color: white;
+}
+
+.btn{
+    border: 1px solid white;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 34px;
+    font-size: 14px;
+}
